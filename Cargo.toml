@@ -1,0 +1,11 @@
+[package]
+name = "nft-observer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sui-sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
+tokio = { version = "1.2", features = ["full"] }
+anyhow = "1.0"
+futures = "0.3.28"
+futures-core = "0.3.21"
